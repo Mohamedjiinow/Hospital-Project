@@ -22,17 +22,19 @@ function Doctors() {
     <div className="flex flex-wrap justify-center gap-6 mt-6">
 
       {
-     filterdata.map((doc) => {
+     filterdata.length > 0 ? filterdata.map((doc) => {
        return <div
           className="border-2 border-black p-4 rounded-lg w-[250px] transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl hover:bg-red-500 hover:text-white"   >
           <img className="w-full h-[200px] object-cover rounded-lg" src={doc.image}  alt=""  />
           <div className="text-center mt-3">
             <p className="text-2xl font-semibold">{doc.name}</p>
             <p className="text-lg ">{doc.title}</p>
-            <button className="bg-green-600 px-5 py-2 rounded-lg text-white mt-4 hover:bg-fuchsia-500 transition duration-300">  View Profile </button>
+            <button className="bg-green-600 px-5 py-2 rounded-lg text-white mt-4 hover:bg-fuchsia-500 transition duration-300">View Profile </button>
           </div>
         </div>
-})}
+})
+:  <p className="text-5xl font-semibold text-red-600 mt-16">There's Nothing Here!</p>
+}
     </div>
     </div>
 }
