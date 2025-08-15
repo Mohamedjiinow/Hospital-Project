@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#about{
+background-image: url("https://shaafihospital.so/img/covid-19-sm.jpg");
+background-size: cover;
+background-position: center;
+height: 100vh;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}

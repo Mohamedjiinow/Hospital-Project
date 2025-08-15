@@ -1,9 +1,10 @@
 
 import { useState } from "react"
+import { NavLink } from "react-router-dom"
 
 function Header(){
 
-  const [open, Setopen] = useState(false)
+const [open, Setopen] = useState(false)
 
   const handleisopen= ()=>{
     Setopen(true)
@@ -27,7 +28,7 @@ return <div>
   <div  className="sm:flex block pb-6 ">
     <ul style={{display: open===true?"block":""}}  className="sm:flex hidden gap-10 text-3xl font-semibold sm:ml-0 sm:mt-2 mt-16 -ml-64 sm:text-black text-white">
         <li className="hover:bg-green-600 hover:text-white sm:px-2 rounded-lg py-1">Home</li>
-        <li className="hover:bg-green-600 hover:text-white sm:px-2 rounded-lg py-1">About</li>
+        <NavLink to=""> <li className="hover:bg-green-600 hover:text-white sm:px-2 rounded-lg py-1">About</li></NavLink>
         <li className="hover:bg-green-600 hover:text-white sm:px-2 rounded-lg py-1">Contact</li>
         <li className="hover:bg-green-600 hover:text-white sm:px-2 rounded-lg py-1">Booking</li>
     </ul>
