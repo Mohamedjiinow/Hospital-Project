@@ -1,21 +1,24 @@
 
 import {  Route, Routes } from "react-router-dom";
-import Center from "./Pages/center";
-import Doctors from "./Pages/Doctors";
 import Header from "./Pages/Header";
+import Home from "./Pages/Doctors";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Booking from "./Pages/Booking";
+import Center from "./Pages/center";
 
 function App(){
   
   return <div>
   <Header />
-    <Doctors />
-    <Center />
-    <div>
 
-   
     <Routes>
+   <Route path="/" element ={<Home />}/>
+   <Route path="/about" element ={<About />}/>
+   <Route path="/contact" element ={<Contact />}/>
+   <Route path="/booking" element ={<Booking />}/>
     </Routes>
-     </div>
+
   </div>
 }
 export default App

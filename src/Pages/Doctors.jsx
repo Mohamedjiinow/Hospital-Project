@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Cards from "../components/doctorImages";
-function Doctors() {
+import Center from "./center";
+function Home() {
     const [search, setsearch]= useState("")
     const [specialist, Setspecialist] =useState("")
 
@@ -36,8 +37,9 @@ function Doctors() {
 :  <p className="text-5xl font-semibold text-red-600 mt-16">There's Nothing Here!</p>
 }
     </div>
+    <Center />
     </div>
 }
 
-export default Doctors;
+export default Home;
 
