@@ -3,10 +3,30 @@
 @tailwind utilities;
 
 #about{
-background-image: url("https://shaafihospital.so/img/covid-19-sm.jpg");
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://shaafihospital.so/img/covid-19-sm.jpg");
 background-size: cover;
 background-position: center;
-height: 100vh;
+height: 60vh;
 background-repeat: no-repeat;
 background-attachment: fixed;
+}
+#mission{
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLBUDdt62hoD98QIC3O4H-LSZTSKUyeFNMiA&s");
+background-size: cover; 
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 60vh;
+}
+#center{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://shaafihospital.so/img/doctor-sm.jpg") ;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    background-repeat: no-repeat;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
 }

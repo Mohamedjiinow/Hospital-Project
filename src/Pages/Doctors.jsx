@@ -38,6 +38,10 @@ function Home() {
 }
     </div>
     <Center />
+    <div id="center" className="mt-10">
+    
+    </div>
+    <h1>somali</h1>
     </div>
 }
 
