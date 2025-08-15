@@ -41,7 +41,78 @@ function Home() {
     <div id="center" className="mt-10">
     
     </div>
-    <h1>somali</h1>
+    <div className="flex justify-center items-center text-center py-4">
+    <div className="py-3">
+    <h1 className="text-2xl pb-4">Care you can believe in</h1>
+    <h1 className="font-semibold text-3xl text-green-600 pb-2">Why Choose Us</h1>
+    <h1>At Shaafi Hospital, your health and well-being are at the core of everything we do. <br /> We are here to provide exceptional medical care, promote wellness, and support <br /> you in achieving a healthier life</h1>
+    </div>
+    </div>
+    <div className="flex justify-around py-6">
+      <div className= "items-center text-center bg-green-600 text-white w-[250px] h-[100px] text-3xl font-semibold rounded-lg ">
+        <h1 className="text-5xl">100+</h1>
+        <h1 className="text-black">Beds</h1>
+      </div>
+      <div className= " items-center text-center bg-green-600 text-white w-[250px] h-[100px] text-3xl font-semibold rounded-lg">
+        <h1 className="text-5xl">55+</h1>
+        <h1 className="text-black">Doctors</h1>
+      </div>
+      <div className= "items-center text-center bg-green-600 text-white w-[250px] h-[100px] text-3xl font-semibold rounded-lg ">
+        <h1 className="text-5xl">30+</h1>
+        <h1 className="text-black">Specialists</h1>
+      </div>
+      
+    </div>
+
+    <div className="flex flex-wrap justify-around gap-5 mb-20 mt-10">
+      <div className="flex flex-wrap justify-center text-center items-center py-2 border-2 border-gray-300 p-5">
+        <div>
+          <div className="bg-red-600 rounded-full w-10 h-10 flex justify-center items-center text-center ml-48">
+        <i class="fa-solid fa-heart-pulse  text-white font-semibold"></i>
+        </div>
+        <h1 className="font-semibold text-2xl pt-4 pb-3">Excellence in Healthcare</h1>
+        <h1>Our hospital is renowned for its commitment to <br /> excellence in healthcare. We have a team of experienced <br /> doctors, nurses, and support staff who work together to <br /> ensure the highest standards of medical care. From <br /> routine check-ups to complex surgeries, we are equipped <br />  to handle a wide range of medical conditions.</h1>
+      </div>
+      </div>
+
+      <div className="flex flex-wrap justify-center text-center items-center py-2 border-2 border-gray-300 p-5">
+        <div>
+          <div className="bg-red-600 rounded-full w-10 h-10 flex justify-center items-center text-center ml-48">
+        <i class="fa-solid fa-lungs text-white font-semibold"></i>
+        </div>
+        <h1 className="font-semibold text-2xl pt-4 pb-3">Excellence in Healthcare</h1>
+        <h1>Our hospital is renowned for its commitment to <br /> excellence in healthcare. We have a team of experienced <br /> doctors, nurses, and support staff who work together to <br /> ensure the highest standards of medical care. From <br /> routine check-ups to complex surgeries, we are equipped <br />  to handle a wide range of medical conditions.</h1>
+      </div>
+      </div>
+
+      <div className="flex flex-wrap justify-center text-center items-center py-2 border-2 border-gray-300 p-5">
+        <div>
+          <div className="bg-red-600 rounded-full w-10 h-10 flex justify-center items-center text-center ml-48">
+       <i class="fa-solid fa-hospital text-white font-semibold"></i>
+        </div>
+        <h1 className="font-semibold text-2xl pt-4 pb-3">Excellence in Healthcare</h1>
+        <h1>Our hospital is renowned for its commitment to <br /> excellence in healthcare. We have a team of experienced <br /> doctors, nurses, and support staff who work together to <br /> ensure the highest standards of medical care. From <br /> routine check-ups to complex surgeries, we are equipped <br />  to handle a wide range of medical conditions.</h1>
+      </div>
+      </div>
+      <div className="flex flex-wrap justify-center text-center items-center py-2 border-2 border-gray-300 p-5">
+        <div>
+          <div className="bg-red-600 rounded-full w-10 h-10 flex justify-center items-center text-center ml-48">
+       <i class="fa-solid fa-stethoscope text-white font-semibold"></i>
+        </div>
+        <h1 className="font-semibold text-2xl pt-4 pb-3">Excellence in Healthcare</h1>
+        <h1>Our hospital is renowned for its commitment to <br /> excellence in healthcare. We have a team of experienced <br /> doctors, nurses, and support staff who work together to <br /> ensure the highest standards of medical care. From <br /> routine check-ups to complex surgeries, we are equipped <br />  to handle a wide range of medical conditions.</h1>
+      </div>
+      </div>
+      <div className="flex flex-wrap justify-center text-center items-center py-2 border-2 border-gray-300 p-5">
+        <div>
+          <div className="bg-red-600 rounded-full w-10 h-10 flex justify-center items-center text-center ml-48">
+        <i class="fa-solid fa-truck-medical text-white font-semibold"></i>
+        </div>
+        <h1 className="font-semibold text-2xl pt-4 pb-3">Excellence in Healthcare</h1>
+        <h1>Our hospital is renowned for its commitment to <br /> excellence in healthcare. We have a team of experienced <br /> doctors, nurses, and support staff who work together to <br /> ensure the highest standards of medical care. From <br /> routine check-ups to complex surgeries, we are equipped <br />  to handle a wide range of medical conditions.</h1>
+      </div>
+      </div>
+    </div>
     </div>
 }
 
