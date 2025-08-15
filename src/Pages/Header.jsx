@@ -1,4 +1,3 @@
-
 function Header(){
 return <div>
   <div className="flex justify-between sm:px-10 sm:bg-white bg-black">
