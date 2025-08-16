@@ -89,11 +89,11 @@ function Home() {
     </div>
 
     <div className="flex flex-wrap justify-between px-10 py-6">
-      {/* left */}
+      
       <div>
         <img className="w-[500px] " src={imageOne} alt="" />
       </div>
-      {/* right */}
+     
       <div className="py-5">
         <div className="flex gap-3 pb-7">
       <i class="fa-solid fa-syringe flex text-3xl"></i>
