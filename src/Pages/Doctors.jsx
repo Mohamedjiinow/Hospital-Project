@@ -47,11 +47,7 @@ function Home() {
       <div className="py-3">
         <h1 className="text-2xl sm:text-3xl pb-4">Care you can believe in</h1>
         <h1 className="font-semibold text-3xl sm:text-4xl text-green-600 pb-2"> Why Choose Us</h1>
-        <h1 className="text-black text-sm sm:text-base">
-          At Shaafi Hospital, your health and well-being are at the core of everything we do. <br className="hidden sm:block"/> 
-          We are here to provide exceptional medical care, promote wellness, and support <br className="hidden sm:block"/> 
-          you in achieving a healthier life
-        </h1>
+        <h1 className="text-black text-sm sm:text-base"> At SOM Hospital, your health and well-being are at the core of everything we do. <br className="hidden sm:block"/>   We are here to provide exceptional medical care, promote wellness, and support <br className="hidden sm:block"/>  you in achieving a healthier life </h1>
       </div>
     </div>
 
