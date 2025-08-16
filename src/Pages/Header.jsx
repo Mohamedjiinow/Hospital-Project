@@ -31,6 +31,7 @@ return <div>
         <NavLink to="about"> <li className="hover:bg-green-600 hover:text-white sm:px-2 rounded-lg py-1">About</li> </NavLink>
        <NavLink to="/contact"> <li className="hover:bg-green-600 hover:text-white sm:px-2 rounded-lg py-1">Contact</li> </NavLink>
         <NavLink to="/booking"> <li className="hover:bg-green-600 hover:text-white sm:px-2 rounded-lg py-1">Booking</li> </NavLink>
+        <NavLink to="/Doctors"> <li className="hover:bg-green-600 hover:text-white sm:px-2 rounded-lg py-1">Doctors</li> </NavLink>
     </ul>
     
   </div>

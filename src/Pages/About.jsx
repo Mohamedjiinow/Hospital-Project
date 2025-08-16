@@ -71,59 +71,59 @@ function About(){
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
           
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
+          <div id="exam" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
             <i className="fa-solid fa-pills text-4xl text-green-600 mb-4"></i>
             <h2 className="font-semibold text-xl">Pharmacology</h2>
-            <p className="text-black mt-2 text-sm"> Medical competitor research startup to financial </p>
+            <p className=" mt-2 text-sm"> Medical competitor research startup to financial </p>
           </div>
 
          
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
+          <div  id="exam" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
             <i className="fa-solid fa-bone text-4xl text-green-600 mb-4"></i>
             <h2 className="font-semibold text-xl text-green-600">Orthopedic</h2>
-            <p className="text-black mt-2 text-sm">  Medical competitor research startup to financial  </p>
+            <p className=" mt-2 text-sm">  Medical competitor research startup to financial  </p>
           </div>
 
           
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
+          <div  id="exam" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
             <i className="fa-solid fa-heart-pulse text-4xl  mb-4 text-green-600"></i>
             <h2 className="font-semibold text-xl">Hematology</h2>
-            <p className="text-black mt-2 text-sm"> Medical competitor research startup to financial  </p>
+            <p className=" mt-2 text-sm"> Medical competitor research startup to financial  </p>
           </div>
 
          
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
+          <div  id="exam" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
             <i className="fa-solid fa-user-doctor text-4xl text-green-600 mb-4 "></i>
             <h2 className="font-semibold text-xl">Plastic Surgery</h2>
-            <p className="text-black mt-2 text-sm"> Medical competitor research startup to financial </p>
+            <p className="mt-2 text-sm"> Medical competitor research startup to financial </p>
           </div>
 
          
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
+          <div  id="exam" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
             <i className="fa-solid fa-brain text-4xl text-green-600 mb-4"></i>
             <h2 className="font-semibold text-xl">Neurology</h2>
-            <p className="text-black mt-2 text-sm">   Medical competitor research startup to financial</p>
+            <p className=" mt-2 text-sm">   Medical competitor research startup to financial</p>
           </div>
 
           
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
+          <div  id="exam" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
             <i className="fa-solid fa-eye text-4xl text-green-600 mb-4"></i>
             <h2 className="font-semibold text-xl">Ophthalmology</h2>
-            <p className="text-black mt-2 text-sm"> Medical competitor research startup to financial  </p>
+            <p className=" mt-2 text-sm"> Medical competitor research startup to financial  </p>
           </div>
 
           
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
+          <div  id="exam" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
             <i className="fa-solid fa-tooth text-4xl text-green-600 mb-4"></i>
             <h2 className="font-semibold text-xl">Dental Care</h2>
-            <p className="text-black mt-2 text-sm">  Medical competitor research startup to financial  </p>
+            <p className=" mt-2 text-sm">  Medical competitor research startup to financial  </p>
           </div>
 
          
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
+          <div  id="exam" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
             <i className="fa-solid fa-stethoscope text-4xl text-green-600 mb-4"></i>
             <h2 className="font-semibold text-xl">Cardiology</h2>
-            <p className="text-black mt-2 text-sm"> Medical competitor research startup to financial </p>
+            <p className=" mt-2 text-sm"> Medical competitor research startup to financial </p>
           </div>
 
         </div>

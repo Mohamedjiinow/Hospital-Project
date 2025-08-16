@@ -30,3 +30,12 @@ height: 60vh;
     align-items: center;
     margin-left: 15%;
 }
+#exam:hover{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://shaafihospital.so/img/covid-19-sm.jpg");
+    background-size: cover;
+    background-position: center;     
+    color:white;   
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
