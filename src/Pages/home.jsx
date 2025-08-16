@@ -1,3 +1,4 @@
+import  imageOne from "../Pages/image.png"
 import { useState } from "react";
 import Cards from "../components/doctorImages";
 import Center from "./center";
@@ -90,7 +91,7 @@ function Home() {
     <div className="flex flex-wrap justify-between px-10 py-6">
       {/* left */}
       <div>
-        <img className="w-[330px] h-[90vh]" src="https://medilo-html.netlify.app/assets/img/about_img_1.jpg" alt="" />
+        <img className="w-[500px] " src={imageOne} alt="" />
       </div>
       {/* right */}
       <div className="py-5">
@@ -98,7 +99,7 @@ function Home() {
       <i class="fa-solid fa-syringe flex text-3xl"></i>
       <p className="text-3xl font-semibold">More About Us</p>
       </div>
-      <h1 className="text-4xl text-green-600 pb-6 font-bold">More Than 26+ Years <br /> About Provide Medical.</h1>
+      <h1 className="text-4xl text-green-600 pb-3 font-bold">More Than 26+ Years <br /> About Provide Medical.</h1>
       <p className="text-1xl">We are privileged to work with hundreds of future-thinking <br /> medial, including many of the world’s top hardware, software, and <br /> brands , feel safe and comfortable in establishing.</p>
       <div className="flex flex-wrap gap-16 py-5">
         <div className="flex flex-wrap gap-4">
@@ -126,49 +127,47 @@ function Home() {
         </div>
         <p >There are many variations of pass available this medical <br /> service the team<span className="text-1xl underline px-2 text-green-600">READ MORE +</span></p>
       </div>
-      <button className="mt-5 bg-green-600 hover:bg-gray-300 hover:text-green-600 py-3 ml-4  px-2 text-white text-3xl font-semibold rounded-full">More About <span className="px-0 p-0"><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i> </span></button>
+      <button className=" bg-green-600 hover:bg-gray-300 hover:text-green-600 py-3 ml-4  px-2 text-white text-3xl font-semibold rounded-full">More About <span className="px-0 p-0"><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i> </span></button>
       </div>
     </div>
 
+  <div className="flex flex-wrap justify-around py-10 ml-14 w-[90%] h-[170px] bg-green-600 text-center gap-6">
+
+  <div className="border-r-2 border-r-gray-400 w-[120px] h-[120px] bg-white rounded-lg shadow-lg p-4 hover:scale-105 transform transition-all duration-300">
+    <div className="bg-green-600 hover:bg-black text-white rounded-full w-12 h-12 flex justify-center items-center mx-auto ">
+      <i className="fa-solid fa-users"></i>
+    </div>
+    <h1 className="text-xl font-bold text-green-600 "><CountUp start={0} end={567} duration={5} />+</h1>
+    <h1 className="text-sm text-gray-700 font-semibold">Active Clients</h1>
+  </div>
+
+  <div className="border-r-2 border-r-gray-400 w-[120px] h-[120px] bg-white rounded-lg shadow-lg p-4 hover:scale-105 transform transition-all duration-300">
+    <div className="bg-green-600 hover:bg-black text-white rounded-full w-12 h-12 flex justify-center items-center mx-auto ">
+      <i className="fa-solid fa-users"></i>
+    </div>
+    <h1 className="text-xl font-bold text-green-600 "><CountUp start={0} end={567} duration={5} />+</h1>
+    <h1 className="text-sm text-gray-700 font-semibold">Active Clients</h1>
+  </div>
+
+  <div className="border-r-2 border-r-gray-400 w-[120px] h-[120px] bg-white rounded-lg shadow-lg p-4 hover:scale-105 transform transition-all duration-300">
+    <div className="bg-green-600 hover:bg-black text-white rounded-full w-12 h-12 flex justify-center items-center mx-auto ">
+      <i className="fa-solid fa-users"></i>
+    </div>
+    <h1 className="text-xl font-bold text-green-600 "><CountUp start={0} end={567} duration={5} />+</h1>
+    <h1 className="text-sm text-gray-700 font-semibold">Active Clients</h1>
+  </div>
+
+  <div className="w-[120px] h-[120px] bg-white rounded-lg shadow-lg p-4 hover:scale-105 transform transition-all duration-300">
+    <div className="bg-green-600 hover:bg-black text-white rounded-full w-12 h-12 flex justify-center items-center mx-auto ">
+      <i className="fa-solid fa-users"></i>
+    </div>
+    <h1 className="text-xl font-bold text-green-600 "><CountUp start={0} end={567} duration={5} />+</h1>
+    <h1 className="text-sm text-gray-700 font-semibold">Active Clients</h1>
+  </div>
+
+</div>
 
     
-      <div  className="flex flex-wrap  justify-around py-10 ml-14 w-[90%] h-[170px] bg-green-600 text-center">
-        
-        <div className="  border-r-2 border-r-gray-400 w-[100px] h-[90px]">
-        <div  className="bg-white  hover:bg-black hover:text-white text-green-600 rounded-full w-12 h-12 flex justify-center items-center">
-       <i class="fa-solid fa-users"></i>
-        </div>
-        <h1>567+</h1>
-        <h1>Active Cleints</h1>
-      </div>
-
-        <div className="border-r-2 border-r-gray-400 w-[100px] h-[90px]">
-        <div  className="bg-white  hover:bg-black hover:text-white text-green-600 rounded-full w-12 h-12 flex justify-center items-center">
-       <i class="fa-solid fa-users"></i>
-        </div>
-        <h1>567+</h1>
-        <h1>Active Cleints</h1>
-      </div>
-
-       <div className=" border-r-2 border-r-gray-400 w-[300px] h-[90px] text-3xl font-semibold">
-        <div  className="bg-white  hover:bg-black hover:text-white text-green-600 rounded-full w-12 h-12 flex justify-center items-center">
-       <i class="fa-solid fa-users"></i>
-        </div>
-        <h1 >567+</h1>
-        <h1>Active Cleints</h1>
-      </div>
-
-       <div className=" w-[100px] h-[90px]">
-        <div  className="bg-white  hover:bg-black hover:text-white text-green-600 rounded-full w-12 h-12 flex justify-center items-center">
-       <i class="fa-solid fa-users"></i>
-        </div>
-        <h1>567+</h1>
-        <h1>Active Cleints</h1>
-      </div>
-
-      </div>
-
-  
     </>
   
 }
