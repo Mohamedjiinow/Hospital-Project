@@ -1,7 +1,7 @@
 function Offer() {
   return (
     <section className="py-16 bg-white">
-      <div className="text-center mb-10"><h4 className="text-green-600 font-semibold uppercase tracking-wide">Service Offerings</h4><h2 className="text-3xl font-bold mt-2">Explore Our Service Offerings</h2></div>
+      <div className="text-center mb-10"><h4 className="text-green-600 font-semibold uppercase text-2xl tracking-wide">Service Offerings</h4><h2 className="text-3xl font-bold mt-2">Explore Our Service Offerings</h2></div>
       <div className="flex flex-wrap justify-center gap-4 mb-10">
         <h1 className="flex items-center gap-2 px-6 py-3 rounded-md font-semibold bg-green-600 text-white relative transition"><i className="fas fa-brain"></i>Modern Technology</h1>
         <h1 className="flex items-center gap-2 px-6 py-3 rounded-md font-semibold bg-gray-100 text-gray-800 hover:bg-green-600 hover:text-white transition"><i className="fas fa-heartbeat"></i>Success of Treatment</h1>
