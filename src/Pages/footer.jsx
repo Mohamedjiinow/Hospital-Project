@@ -2,10 +2,9 @@ function Footer() {
   return (
     <footer className="bg-green-600 text-white relative mt-28">
       
-      {/* Card-ka Som Hospital + Service + Quick Link + Recent Posts isku line */}
       <div className="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
 
-        {/* Som Hospital Card */}
+       
         <div className="bg-green-500 p-6 rounded-xl shadow-xl h-auto">
           <h2 className="text-2xl md:text-3xl font-bold mb-3 flex items-center gap-2">
             <i className="fas fa-hospital-symbol"></i> Som Hospital
@@ -23,7 +22,7 @@ function Footer() {
             <i className="fas fa-phone text-white mt-1"></i>
             <p className="text-sm">+252616789876908778</p>
           </div>
-          {/* Social Media Icons */}
+         
           <div className="flex items-center gap-4 mt-4">
             <a href="#" className="hover:text-black"><i className="fab fa-facebook-f"></i></a>
             <a href="#" className="hover:text-black"><i className="fab fa-twitter"></i></a>
@@ -51,7 +50,7 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Quick Link */}
+        
         <div className="h-auto text-white">
           <h3 className="font-semibold text-lg mb-3">Quick Link</h3>
           <ul className="space-y-2">
@@ -63,7 +62,7 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Recent Posts */}
+       
         <div className="h-auto text-white">
           <h3 className="font-semibold text-lg mb-3">Recent Posts</h3>
           <div className="flex items-center gap-3 mb-2">
@@ -83,7 +82,7 @@ function Footer() {
         </div>
       </div>
 
-      {/* Footer Bottom */}
+    
       <div className="bg-black text-gray-300 text-center text-sm py-4">
         <p>Copyright 2024 Som Hospital, All Rights Reserved.</p>
         <div className="mt-2 space-x-4">
