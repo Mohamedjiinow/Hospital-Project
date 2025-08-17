@@ -5,6 +5,9 @@ import Center from "./center";
 import CountUp from "react-countup";
 import Footer from "./footer";
 import Qeeb from "../components/Qeeb";
+import Services from "../components/Service";
+import Offer from "../components/offer";
+import Blog from "../components/blog";
 function Home() {
    return <>
     <div id="about">
@@ -228,6 +231,9 @@ function Home() {
 
         </div>
         <Qeeb />
+        <Services />
+        <Offer />
+        <Blog />
         <Footer />
     
 
