@@ -2,7 +2,6 @@ function Blog() {
   return (
     <section className="py-16 bg-gray-50">
       <div className="text-center mb-10">
-        <h4 className="text-green-600 font-semibold uppercase tracking-wide flex items-center justify-center gap-2"><span className="w-8 h-px bg-green-600"></span> Our Largest Blog <span className="w-8 h-px bg-green-600"></span></h4>
         <h2 className="text-3xl font-bold mt-2">Latest Posts & Articles</h2>
       </div>
 
