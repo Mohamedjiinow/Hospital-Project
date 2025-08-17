@@ -3,6 +3,7 @@ import { useState } from "react";
 import Cards from "../components/doctorImages";
 import Center from "./center";
 import CountUp from "react-countup";
+import Footer from "./footer";
 function Home() {
    return <>
     <div id="about">
@@ -167,7 +168,7 @@ function Home() {
 
 </div>
 
-    
+    <Footer />
     </>
   
 }
