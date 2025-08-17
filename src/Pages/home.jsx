@@ -4,6 +4,7 @@ import Cards from "../components/doctorImages";
 import Center from "./center";
 import CountUp from "react-countup";
 import Footer from "./footer";
+import Qeeb from "../components/Qeeb";
 function Home() {
    return <>
     <div id="about">
@@ -167,7 +168,7 @@ function Home() {
   </div>
 
 </div>
-<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<div className="grid grid-cols-1 px-8 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
           
           <div id="exam" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
@@ -179,7 +180,7 @@ function Home() {
          
           <div  id="exam" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
             <i className="fa-solid fa-bone text-4xl text-green-600 mb-4"></i>
-            <h2 className="font-semibold text-xl text-green-600">Orthopedic</h2>
+            <h2 className="font-semibold text-xl">Orthopedic</h2>
             <p className=" mt-2 text-sm">  Medical competitor research startup to financial  </p>
           </div>
 
@@ -226,7 +227,10 @@ function Home() {
           </div>
 
         </div>
-    <Footer />
+        <Qeeb />
+        <Footer />
+    
+
     </>
   
 }

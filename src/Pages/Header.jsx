@@ -18,7 +18,7 @@ return <div>
   <div className="flex justify-between sm:px-10 sm:bg-white bg-black">
     <div className="flex gap-20 mt-2">
       <div className="flex gap-3">
-    <i class="fa-solid fa-user-nurse font-semibold text-3xl text-green-600 sm:hover:bg-green-600 sm:hover:text-white sm:hover:rounded-lg "></i>
+    <i class="fa-solid fa-user-nurse font-semibold text-3xl text-green-600 sm:hover:text-white sm:hover:rounded-lg "></i>
     <p className="font-semibold text-3xl sm:text-black text-white">SOM</p>
     <p className="font-semibold text-3xl sm:text-green-600 text-white ">HOSPITAL</p>
     </div>
